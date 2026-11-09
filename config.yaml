@@ -1,0 +1,5 @@
+extender_type: "service"
+extender_file: "AdaptiHound-SE.so"
+ax_file: "ax_config.axs"
+service_name: "AdaptiHoundSE"
+service_config: ""
