@@ -1,5 +1,7 @@
 # AdaptiHound-SE
 
+> **Use with [AdaptiHound-BOF](https://github.com/s3c4ct0r/AdaptiHound-BOF)**
+
 A server-side Adaptix Service Extender that combines a completed AdaptiHound multipart AD collection into one ZIP in Downloads. Start it from the context menu of any collection part or its manifest; processing runs on the C2 server and does not submit an agent task.
 
 The merged ZIP contains the original complete JSON files, including their original names and repeated graph records. JSON files from different parts are retained separately, so one dataset can have several entries in the resulting ZIP. Import the resulting ZIP into BloodHound CE through its native AD importer as a single upload; no custom graph definition is needed.
